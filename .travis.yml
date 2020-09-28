@@ -22,14 +22,14 @@ after_success:
   - docker push jedavard/multi-worker
   - docker push jedavard/multi-server
 
-deploy:
-  edge: true
-  provider: elasticbeanstalk
-  region: us-east-1
-  app: Multi-Docker
-  env: Multi-Docker-env
-  bucket: elasticbeanstalk-us-east-1-530805451288
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
-  on:
-    branch: master
+#deploy:
+#  edge: true
+#  provider: elasticbeanstalk
+#  region: us-east-1
+#  app: Multi-Docker
+#  env: Multi-Docker-env
+#  bucket: elasticbeanstalk-us-east-1-530805451288
+#  access_key_id: $AWS_ACCESS_KEY
+#  secret_access_key: $AWS_SECRET_KEY
+#  on:
+#    branch: master
