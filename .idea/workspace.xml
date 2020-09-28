@@ -12,8 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b587b63b-bf73-4601-94bb-464dc1831afc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/client-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Fib.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Fib.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <workItem from="1601038619862" duration="2840000" />
       <workItem from="1601046038903" duration="20342000" />
       <workItem from="1601282087306" duration="3057000" />
-      <workItem from="1601285575179" duration="2406000" />
+      <workItem from="1601285575179" duration="4801000" />
     </task>
     <servers />
   </component>
