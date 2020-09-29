@@ -11,18 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b587b63b-bf73-4601-94bb-464dc1831afc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/k8s/client-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/redis-deployment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/scratch.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/server-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/server-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/worker-deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/client-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-node-port.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/client-node-port.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/client-pod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Fib.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Fib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile.dev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +39,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/worker" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/worker" />
       <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/k8s" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -72,12 +67,16 @@
       <workItem from="1601038619862" duration="2840000" />
       <workItem from="1601046038903" duration="20342000" />
       <workItem from="1601282087306" duration="3057000" />
-      <workItem from="1601285575179" duration="11202000" />
+      <workItem from="1601285575179" duration="12142000" />
+      <workItem from="1601374297417" duration="2181000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.yaml" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -92,10 +91,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601045599213">
+    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601376488165">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1601045599213" />
+    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1601376471696" />
+    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser/-1440.23.1440.877/0.0.1440.900@0.0.1440.900" timestamp="1601376488165" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1601283002908">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
