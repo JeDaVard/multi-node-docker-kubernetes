@@ -11,12 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b587b63b-bf73-4601-94bb-464dc1831afc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/k8s/redis-deployment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/scratch.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/server-cluster-ip-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/server-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/worker-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/redis-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/redis-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
       <workItem from="1601046038903" duration="20342000" />
       <workItem from="1601282087306" duration="3057000" />
       <workItem from="1601285575179" duration="12142000" />
-      <workItem from="1601374297417" duration="2181000" />
+      <workItem from="1601374297417" duration="2327000" />
     </task>
     <servers />
   </component>
