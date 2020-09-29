@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b587b63b-bf73-4601-94bb-464dc1831afc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/k8s/redis-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/redis-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <workItem from="1601046038903" duration="20342000" />
       <workItem from="1601282087306" duration="3057000" />
       <workItem from="1601285575179" duration="12142000" />
-      <workItem from="1601374297417" duration="2327000" />
+      <workItem from="1601374297417" duration="3082000" />
     </task>
     <servers />
   </component>
@@ -86,10 +88,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601376488165">
+    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601376792454">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1601376471696" />
+    <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1601376792454" />
     <state x="446" y="250" key="#com.intellij.fileTypes.FileTypeChooser/-1440.23.1440.877/0.0.1440.900@0.0.1440.900" timestamp="1601376488165" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1601283002908">
       <screen x="0" y="0" width="1440" height="900" />
