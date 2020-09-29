@@ -11,9 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b587b63b-bf73-4601-94bb-464dc1831afc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/k8s/client-cluster-ip-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/client-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-node-port.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/client-node-port.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-pod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/client-pod.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Fib.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Fib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +51,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/worker" />
       <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -62,7 +72,7 @@
       <workItem from="1601038619862" duration="2840000" />
       <workItem from="1601046038903" duration="20342000" />
       <workItem from="1601282087306" duration="3057000" />
-      <workItem from="1601285575179" duration="4801000" />
+      <workItem from="1601285575179" duration="11202000" />
     </task>
     <servers />
   </component>
