@@ -1,0 +1,7 @@
+version: 2.1
+orbs:
+  gcp-gke: circleci/gcp-gke@1.1.0
+workflows:
+  node-tests:
+    jobs:
+      - node/test
