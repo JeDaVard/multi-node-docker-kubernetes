@@ -10,3 +10,7 @@ before_install:
   - gcloud config set compute/zone us-central1-c
   - gcloud container clusters get-credentials multi-cluster
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - docker build -t jedavard/multi-client -f ./client/Dockerfile.dev ./client
+
+script:
+  - docker run -e CI=true jedavard/multi-client-react npm run test
