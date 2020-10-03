@@ -11,9 +11,9 @@ docker push jedavard/multi-worker:$SHA
 
 kubectl apply -f k8s
 
-kubectl set image deployments/client-deployments client=jedavard/multi-client:$SHA
-kubectl set image deployments/server-deployments server=jedavard/multi-server:$SHA
-kubectl set image deployments/worker-deployments worker=jedavard/multi-worker:$SHA
+kubectl set image deployments/client-deployment client=jedavard/multi-client:$SHA
+kubectl set image deployments/server-deployment server=jedavard/multi-server:$SHA
+kubectl set image deployments/worker-deployment worker=jedavard/multi-worker:$SHA
 
 # This is a new method to restart all or specific objects
 #kubectl rollout restart deployments
